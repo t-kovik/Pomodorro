@@ -1,0 +1,14 @@
+@import "src/colors";
+
+.statbutton {
+  display: flex;
+  align-items: center;
+  color: $redDC;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+
+  &__icon {
+    margin-right: 5px;
+  }
+}

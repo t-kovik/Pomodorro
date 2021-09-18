@@ -1,4 +1,4 @@
-import {Header} from "../shared/Header";
+import {App} from '../App'
 
 const express = require('express');
 import ReactDOM from 'react-dom/server';
@@ -10,7 +10,7 @@ app.use('/static', express.static('./dist/client'))
 
 app.get('/', (req, res) => {
     res.send(
-        indexTemplate(ReactDOM.renderToString(Header())),
+        indexTemplate(ReactDOM.renderToString(App())),
     );
 });
 

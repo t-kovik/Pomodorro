@@ -1,0 +1,20 @@
+@import "src/colors";
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $grayF4;
+  }
+}
+
+.btn {
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: $gray99;
+}

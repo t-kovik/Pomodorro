@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './header.scss'
 import {Logo} from "./Logo";
 import {StatButton} from "./StatButton";
+import styles from './header.scss'
 
 export function Header() {
     return (

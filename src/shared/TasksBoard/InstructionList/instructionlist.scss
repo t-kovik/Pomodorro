@@ -1,0 +1,36 @@
+@import "../../../colors";
+
+.instructionlist {
+}
+
+.title {
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.list {
+  margin-bottom: 25px;
+}
+
+.item {
+  position: relative;
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 33px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: $redB7;
+    transform: translateY(-50%);
+  }
+}
+
+
+

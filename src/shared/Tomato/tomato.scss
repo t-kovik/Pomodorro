@@ -1,0 +1,73 @@
+@import "src/colors";
+
+.tomatoheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: $grayC4;
+  font-size: 16px;
+  line-height: 17px;
+  color: $white;
+
+}
+
+.description {
+  font-weight: 700;
+}
+
+.tomatotimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 100px;
+  background: $grayF4;
+}
+
+.timer {
+  font-weight: 200;
+  font-size: 150px;
+  line-height: 179px;
+  margin-bottom: 25px;
+}
+
+.task {
+  margin-bottom: 32px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.start, .stop {
+  padding: 20px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  transition: background .3s ease-in-out;
+}
+
+.start {
+  margin-right: 32px;
+  background: $greenA8;
+  color: $white;
+
+  &:hover {
+    background: $green89;
+  }
+}
+
+.stop {
+  border: 1px solid $grayC4;
+  color: $grayC4;
+}
+
+.break {
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+
+:global(.active) {
+  background: $greenA8;
+}

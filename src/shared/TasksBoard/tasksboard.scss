@@ -1,0 +1,40 @@
+@import "src/colors";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+}
+
+.input {
+  border: 0;
+  height: 55px;
+  width: 370px;
+  margin-bottom: 25px;
+  padding: 20px 15px;
+  background: $grayF4;
+}
+
+.button {
+  padding: 20px 50px;
+  background: $greenA8;
+  color: $white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  transition: background .3s ease-in-out;
+
+  &:hover {
+    background: $green89;
+  }
+}
+
+.duration {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: $gray99;
+
+}
+

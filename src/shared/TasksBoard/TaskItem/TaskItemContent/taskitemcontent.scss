@@ -1,0 +1,17 @@
+@import "src/colors";
+
+.input {
+  height: 25px;
+  margin-right: 15px;
+}
+
+.button {
+  padding: 5px 15px;
+  background: $greenA8;
+  color: $white;
+  text-transform: uppercase;
+
+  &:hover {
+    background: $green89;
+  }
+}
